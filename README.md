@@ -109,17 +109,9 @@ The dashboard helps identify:
 
 ## 📷 Dashboard Preview
 
-### Netflix Overview
-
-![Netflix Overview](/Screenshots/dashboard_one.jpg)
-
-### Netflix Overview
-
-![Content Analysis](/Screenshots/dashboard_two.jpg)
-
-### Star Schema
-
-![Geographic Analysis](/Screenshots/Screenshot%202026-08-14%20002127.png)
+![Netflix Overview](Screenshots/dashboard_one.jpg)
+![Content Analysis](Screenshots/dashboard_two.jpg)
+![Geographic Analysis](Screenshots/Screenshot%202026-08-14%20002127.png)
 
 ---
 
