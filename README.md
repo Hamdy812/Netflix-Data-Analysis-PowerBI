@@ -111,15 +111,15 @@ The dashboard helps identify:
 
 ### Netflix Overview
 
-![Netflix Overview](Screenshots/dashboard_one.jpg)
+![Netflix Overview](/Screenshots/dashboard_one.jpg)
 
 ### Netflix Overview
 
-![Content Analysis](Screenshots/dashboard_two.jpg)
+![Content Analysis](/Screenshots/dashboard_two.jpg)
 
 ### Star Schema
 
-![Geographic Analysis](Screenshots/Screenshot%202026-08-14%20002127.png)
+![Geographic Analysis](/Screenshots/Screenshot%202026-08-14%20002127.png)
 
 ---
 
