@@ -7,7 +7,7 @@ An interactive **Power BI** dashboard that analyzes Netflix's content library: c
 ## 📷 Dashboard Preview
 
 ![Netflix Overview](Screenshots/netflix_overview.png)
-![Content Analysis](Screenshots/content_analysis.png)
+![Content Analysis](Screenshots/dashboard_one.jpg)
 ![Geographic Analysis](Screenshots/geographic_analysis.png)
 
 ---
