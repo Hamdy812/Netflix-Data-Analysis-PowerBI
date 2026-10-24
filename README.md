@@ -1,117 +1,84 @@
-````markdown
 # 🎬 Netflix Data Analysis Dashboard
 
-## 📌 Project Overview
-
-This project presents an interactive **Netflix Content Analysis Dashboard** built using **Microsoft Power BI**.
-
-The main goal is to analyze Netflix's content library and provide insights into content distribution, production countries, genres, content types, and release trends.
-
----
-
-## 🎯 Project Objectives
-
-The dashboard aims to answer key business questions such as:
-
-- How large is Netflix's content library?
-- What is the distribution between Movies and TV Shows?
-- Which countries produce the most Netflix content?
-- What are the most common genres?
-- How has Netflix's content evolved over the years?
-- How is Netflix's content distributed across different categories?
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Power BI**
-- **Power Query**
-- **Microsoft Excel**
-- **DAX**
-- **Star Schema**
-- **Data Cleaning & Transformation**
-- **Data Visualization**
-
----
-
-## 🧹 Data Preparation
-
-The dataset was cleaned and transformed using **Power Query**.
-
-The main preprocessing steps included:
-
-- Handling missing values
-- Removing duplicate records
-- Cleaning text fields
-- Splitting and transforming columns
-- Formatting data types
-- Extracting useful information from existing columns
-- Creating calculated columns required for analysis
-
----
-
-## ⭐ Data Modeling
-
-A **Star Schema** was designed to improve the structure and performance of the Power BI model.
-
-### Fact Table
-
-- `FactNetflix`
-
-### Dimension Tables
-
-- `DimDate`
-- `DimCountry`
-- `DimGenre`
-
-The model enables efficient analysis across different dimensions such as time, country, and genre.
-
----
-
-## 📊 Dashboard
-
-The dashboard provides interactive visualizations and KPIs covering:
-
-### Netflix Overview
-
-- Total Titles
-- Total Countries
-- Movie Percentage
-- TV Show Percentage
-- Content Growth Over Time
-
-### Content Analysis
-
-- Movies vs TV Shows
-- Top Genres
-- Content Distribution
-- Release Trends
-
-### Geographic Analysis
-
-- Content by Country
-- Top Content-Producing Countries
-- Geographic Distribution of Netflix Titles
-
----
-
-## 📈 Key Insights
-
-The dashboard helps identify:
-
-- The overall growth of Netflix's content library.
-- The balance between Movies and TV Shows.
-- Countries with the highest contribution to Netflix's catalog.
-- The most popular content genres.
-- Changes in content production and additions over time.
+An interactive **Power BI** dashboard that analyzes Netflix's content library: content types, genres, production countries, and release trends.
 
 ---
 
 ## 📷 Dashboard Preview
 
-![Netflix Overview](Screenshots/dashboard_one.jpg)
-![Content Analysis](Screenshots/dashboard_two.jpg)
-![Geographic Analysis](Screenshots/Screenshot%202026-08-14%20002127.png)
+![Netflix Overview](Screenshots/netflix_overview.png)
+![Content Analysis](Screenshots/content_analysis.png)
+![Geographic Analysis](Screenshots/geographic_analysis.png)
+
+---
+
+## 🎯 Project Objectives
+
+The dashboard answers key questions such as:
+
+- How large is Netflix's content library?
+- What is the split between Movies and TV Shows?
+- Which countries produce the most Netflix content?
+- What are the most common genres?
+- How has Netflix's content evolved over the years?
+
+---
+
+## 📈 Key Insights
+
+> Replace these with your real findings.
+
+- Netflix's library contains **[X] titles**, of which **[X]%** are Movies and **[X]%** are TV Shows.
+- **[Country]** is the top content producer, followed by **[Country]** and **[Country]**.
+- The most common genre is **[Genre]**.
+- Content additions peaked in **[Year]**.
+
+---
+
+## 📊 Dashboard Pages
+
+**Netflix Overview**
+- KPIs: Total Titles, Total Countries, Movie %, TV Show %
+- Content growth over time
+
+**Content Analysis**
+- Movies vs TV Shows
+- Top genres
+- Release trends
+
+**Geographic Analysis**
+- Content by country
+- Top content-producing countries
+
+---
+
+## 🛠️ Tools & Technologies
+
+Power BI · Power Query · DAX · Microsoft Excel · Star Schema
+
+---
+
+## 🧹 Data Preparation
+
+Data was cleaned and transformed in **Power Query**:
+
+- Handled missing values and removed duplicates
+- Cleaned text fields and fixed data types
+- Split multi-value columns (countries, genres)
+- Created calculated columns needed for analysis
+
+---
+
+## ⭐ Data Modeling
+
+A **Star Schema** was used to improve model structure and performance.
+
+| Type | Table |
+|---|---|
+| Fact | `FactNetflix` |
+| Dimension | `DimDate` |
+| Dimension | `DimCountry` |
+| Dimension | `DimGenre` |
 
 ---
 
@@ -119,34 +86,39 @@ The dashboard helps identify:
 
 ```text
 Netflix-Data-Analysis-PowerBI/
-│
 ├── Netflix_Dashboard.pbix
 ├── Netflix_Dataset.xlsx
 ├── README.md
-│
 └── Screenshots/
-    ├── Netflix_Overview.png
-    ├── Content_Analysis.png
-    └── Geographic_Analysis.png
-````
+    ├── netflix_overview.png
+    ├── content_analysis.png
+    └── geographic_analysis.png
+```
+
+---
+
+## ▶️ How to Open
+
+1. Download `Netflix_Dashboard.pbix`.
+2. Open it with **Power BI Desktop** (Windows).
+3. If prompted, point the data source to `Netflix_Dataset.xlsx`.
+
+---
+
+## 📦 Dataset
+
+Source: [add the dataset link here, e.g. Kaggle]
 
 ---
 
 ## 👨‍💻 Author
 
 **Hamdy Osama**
-
 Computer Science Student | Backend Development | Data Analysis | AI
 
-* GitHub: [Hamdy812](https://github.com/Hamdy812)
-* LinkedIn: [Hamdy Osama](https://www.linkedin.com/in/hamdy-osama)
-* Portfolio: [hamdyportfolio.netlify.app](https://hamdyportfolio.netlify.app/)
+- GitHub: [Hamdy812](https://github.com/Hamdy812)
+- LinkedIn: [Hamdy Osama](https://www.linkedin.com/in/hamdy-osama)
 
 ---
 
-## 📌 Note
-
-This project was developed as part of my learning journey in **Data Analysis, Power BI, and Artificial Intelligence**.
-
-```
-```
+*Developed as part of my learning journey in Data Analysis, Power BI, and AI.*
